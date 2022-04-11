@@ -29,13 +29,14 @@
   text-align: center;
 }
 .content {
-  display: flex;
   box-sizing: border-box;
   padding: 10px;
   width: 100%;
   border: 1px solid green;
 }
 .content__img {
+  vertical-align: middle;
+  display: inline-block;
   border: 1px solid red;
   max-width: 30%;
 }
@@ -43,15 +44,29 @@
   max-width: 100%;
 }
 .content__text {
+  vertical-align: middle;
   border: 1px solid red;
   display: inline-block;
   text-align: justify;
   max-width: 30%;
 }
 .aside {
+  vertical-align: middle;
+  display: inline-block;
   border: 1px solid red;
   max-width: 30%;
 }
-.content :nth-child(1n) {
+.footer {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.footer p {
+  display: inline-block;
+  border: 1px solid black;
   margin: 10px;
+}
+.footer__container{
+  width: 100%;
+  border: 1px solid green;
+  text-align: center;
 }
