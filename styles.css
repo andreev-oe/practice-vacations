@@ -46,10 +46,12 @@
   border: 1px solid red;
   text-align: center;
 }
-.content {
+.content-wrapper {
   display:flex;
-  justify-content:space-around;
-  padding: 10px;
+}
+.content {
+  /* display: inline-block;
+  padding: 10px; */
   width: 100%;
   border: 1px solid green;
   background-color: lightgoldenrodyellow;
@@ -58,7 +60,7 @@
   align-self: center;
   display: inline-block;
   border: 1px solid red;
-  max-width: 35%;
+  max-width: 40%;
 }
 .content__img img{
   max-width: 100%;
@@ -74,11 +76,15 @@
   align-self: center;
   display: inline-block;
   border: 1px solid red;
+  background-color: lightsalmon;
   max-width: 20%;
   height: 100%;
 }
 .aside-content img{
   max-width: 100%;
+}
+.aside-content p{
+  text-align: center;
 }
 .footer {
   width: 100%;
@@ -94,4 +100,11 @@
   width: 100%;
   border: 1px solid green;
   text-align: center;
+}
+.footer-text__container{
+  width: 100%;
+  border: 1px solid green;
+  text-align: center;
+  margin: 10px 0;
+  background-color: cadetblue;
 }
