@@ -22,7 +22,7 @@
   margin-bottom: 10px;
   background-color: lightblue;
 }
-.header-text p {
+.header-text h2 {
   display: inline-block;
   border: 1px solid black;
   margin: 10px;
@@ -50,17 +50,23 @@
   display:flex;
 }
 .content {
-  /* display: inline-block;
-  padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 100%;
   border: 1px solid green;
   background-color: lightgoldenrodyellow;
 }
+.content-img-text {
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  border: 1px solid orange;
+}
 .content__img {
   align-self: center;
-  display: inline-block;
   border: 1px solid red;
-  max-width: 40%;
+  max-width: 50%;
 }
 .content__img img{
   max-width: 100%;
@@ -68,9 +74,9 @@
 .content__text {
   align-self: center;
   border: 1px solid red;
-  display: inline-block;
   text-align: justify;
-  max-width: 40%;
+  padding: 0 10px;
+  max-width: 50%;
 }
 .aside {
   align-self: center;
@@ -83,7 +89,7 @@
 .aside-content img{
   max-width: 100%;
 }
-.aside-content p{
+.aside-content h2{
   text-align: center;
 }
 .footer {
