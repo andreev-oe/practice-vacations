@@ -9,27 +9,28 @@
 }
 .header p {
   display: inline-block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
 }
 .header__container{
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: right;
 }
 .header-text {
   width: 100%;
+  height: 10%;
   margin-bottom: 10px;
   background-color: lightblue;
 }
 .header-text h2 {
   display: inline-block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
 }
 .header-text__container{
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 .nav {
@@ -38,12 +39,12 @@
 }
 .nav p {
   display: inline-block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
 }
 .nav__container {
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
 }
 .content-wrapper {
@@ -52,20 +53,21 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid black; */
   background-color: lightgoldenrodyellow;
 }
 .content-img-text {
   display: flex;
   justify-content: space-around;
   background-color: aquamarine;
-  border: 1px solid orange;
+  height: 80%;
+  /* border: 1px solid orange; */
 }
 .content__img {
   align-self: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   max-width: 50%;
 }
 .content__img img{
@@ -73,7 +75,7 @@
 }
 .content__text {
   align-self: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: justify;
   padding: 0 10px;
   max-width: 50%;
@@ -81,7 +83,7 @@
 .aside {
   align-self: center;
   display: inline-block;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: lightsalmon;
   max-width: 20%;
   height: 100%;
@@ -99,18 +101,19 @@
 }
 .footer p {
   display: inline-block;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   margin: 10px;
 }
 .footer__container{
   width: 100%;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   text-align: center;
 }
 .footer-text__container{
   width: 100%;
-  border: 1px solid green;
+  height: 10%;
+  /* border: 1px solid green; */
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 0 0 0;
   background-color: cadetblue;
 }
